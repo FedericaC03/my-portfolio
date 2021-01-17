@@ -167,7 +167,9 @@ a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
-
+.grey {
+  color:rgb(221, 193, 167);
+}
 pre,
 code,
 kbd,
@@ -6260,8 +6262,13 @@ button.bg-dark:focus {
 background-color: lightgrey;
 }
 .bg-black {
-background: rgb(92, 11, 61);
+  background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
+
+.bg-grey  {
+  background-color:#D3D3D3;
+}
+
 .footer-bg {
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(150,0,124,1) 50%);
 
@@ -10211,13 +10218,13 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-2.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-6.jfif");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-.masthead h1 {
+.colorfull-text {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -10226,6 +10233,19 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
+}
+#copyright {
+  font-size: 1rem
+}
+.section-c {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: lightgrey;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
 }
 .masthead h2 {
   max-width: 25rem;
@@ -10267,7 +10287,9 @@ body {
 .projects-section .featured-text {
   padding: 2rem;
 }
-
+/* #projects img {
+ margin-top:20px;
+ù} */
 .icons {
  list-style:none;
  display: flex;
@@ -10327,7 +10349,9 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+.black {
+  background-color: black;
+}
 .contact-section {
   padding-top: 5rem;
 }
