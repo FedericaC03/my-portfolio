@@ -6260,7 +6260,7 @@ button.bg-dark:focus {
 background-color: lightgrey;
 }
 .bg-black {
-background: rgb(124, 15, 82);
+background: rgb(92, 11, 61);
 }
 .footer-bg {
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(150,0,124,1) 50%);
@@ -10333,7 +10333,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid  rgb(255, 4, 129);
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -10342,10 +10342,11 @@ body {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: rgb(255, 4, 129);
   border-width: 0.25rem;
   width: 3rem;
 }
+
 .contact-section .social {
   margin-top: 5rem;
 }
@@ -10370,5 +10371,9 @@ body {
 
 .footer {
   padding: 5rem 0;
-  border-top: 2px solid white;
+}
+
+.color-coral {
+  color: rgb(255, 4, 129) !important;
+  font-size: 1.7rem;
 }
